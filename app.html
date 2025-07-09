@@ -3,18 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VisionCrafter.IO</title>
+
+    <!-- SEO for App Page -->
+    <title>Create AI Images & Videos | VisionCrafter.IO</title>
+    <meta name="description" content="Start generating AI art and videos. Select a model, enter your prompt, and fine-tune settings to craft your perfect vision.">
+    <link rel="canonical" href="https://aero-ex.github.io/visioncrafter-io/app.html" />
+    <!-- End SEO -->
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@400;700&family=Kode+Mono:wght@700&display=swap" rel="stylesheet">
-    
+
 </head>
 <body>
     <div class="container">
         <header class="header">
-            <a href="index.html" class="logo-link">
+            <a href="index.html" class="logo-link"> <!-- Link back to the homepage -->
                 <div class="logo">VisionCrafter.IO</div>
             </a>
             <div class="user-profile">
@@ -105,7 +111,7 @@
                                     <span class="arrow"></span>
                                 </div>
                                 <div class="advanced-settings__content">
-                                    
+
                                     <fieldset class="form-section model-settings" id="dalle-gpt-settings">
                                         <div class="setting setting--vertical">
                                             <label for="quality-select-dalle" class="setting__label"><span class="icon">✨</span>Quality</label>
@@ -246,7 +252,7 @@
                                         <option>Loading models...</option>
                                     </select>
                                 </div>
-                                
+
                                 <div class="prompt-group mt-md">
                                     <label for="video-prompt-input" class="visually-hidden">Prompt</label>
                                     <textarea id="video-prompt-input" name="prompt" class="form-input form-input--textarea" placeholder="Describe the video you want to generate..." required></textarea>
